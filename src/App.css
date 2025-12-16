@@ -1,0 +1,43 @@
+.app-container {
+background: #f1f1f1;
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px;
+}
+
+
+.center-screen {
+text-align: center;
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+.blue-btn {
+background: #0070d2;
+color: white;
+padding: 10px 20px;
+font-size: 16px;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+margin-top: 20px;
+}
+
+
+.blue-btn:hover {
+background: #005bb5;
+}
+
+
+.consent-box {
+width: 350px;
+background: white;
+padding: 25px;
+border-radius: 10px;
+box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}

@@ -1,0 +1,125 @@
+/* Outer mobile card */
+.chat-container {
+  width: 380px;
+  height: 620px;
+  background: #ffffff;
+  border-radius: 10px;             /* rounded mobile screen */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Black header like Salesforce */
+.chat-header {
+  background: #1e1e1e;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Scrollable body */
+.chat-body {
+  flex: 1;
+  background: #f5f5f5;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+/* Message layout */
+.msg {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.msg.agent {
+  flex-direction: row;
+}
+
+.msg.user {
+  flex-direction: row-reverse;
+}
+
+/* Blue round avatar */
+.avatar {
+  width: 32px;
+  height: 32px;
+  background: #0070d2;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+/* Chat bubbles with rounded edges */
+.bubble {
+  max-width: 72%;
+  background: #ffffff;
+  border-radius: 18px;             /* nicely rounded */
+  padding: 10px 12px;
+  font-size: 14px;
+  color: #222222;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+}
+
+.msg.user .bubble {
+  background: #0070d2;
+  color: #ffffff;
+}
+
+/* Timestamp */
+.time {
+  font-size: 10px;
+  opacity: 0.6;
+  margin-top: 4px;
+}
+
+/* Input area */
+.chat-input {
+  display: flex;
+  padding: 8px;
+  border-top: 1px solid #dddddd;
+  background: #ffffff;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 18px;
+  border: 1px solid #cccccc;
+  outline: none;
+  font-size: 14px;
+}
+
+.send-btn {
+  margin-left: 8px;
+  padding: 8px 16px;
+  border-radius: 18px;
+  border: none;
+  background: #0070d2;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* Download button */
+.download-wrapper {
+  padding: 6px 10px 0 10px;
+  background: #f5f5f5;
+}
+
+.download-btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 8px 0;
+  background: #059669;
+  color: #ffffff;
+  border-radius: 18px;
+  font-size: 13px;
+  text-decoration: none;
+}
